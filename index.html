@@ -10,7 +10,7 @@
     <title>Jogo da Velha</title>
 </head>
 <body>
-    <div class="container text-center mt-2">
+    <div class="container text-center mt-5">
         <h1 class="title mb-3">Jogo da Velha</h1>
         <h4 id="player" class="player title mb-5">Jogador 1 começa jogando</h4>
     </div>
@@ -79,8 +79,28 @@
             <div class="col-lg-4"></div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <div class="container">
+        <div class="modal fade" id="modal-win" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLongTitle">
+                    <i class="fas fa-crown crown"></i>
+                </h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span class="close" aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+            <p class="text-center modal_text">Vitória!</p>
+        </div>
+        <div class="modal-footer mb-3"></div>
+    </div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/custom.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
