@@ -1,16 +1,17 @@
 body {
-	background-color: #222;
+	background-color: #001514;
 }
 
 .title{
-	color: #666890;
+	font-family: "Curier New", monospace;
+	color: #C2D076;
 	z-index: 2;
 }
 
 .mark {
 	height: 65px;
 	width: 70px;
-	background-color: white;
+	background-color: #C2D076;
 	border: 2px transparent;
 	border-radius: 50%;
 }
@@ -19,8 +20,42 @@ button:disabled {
 	color: #000000;
 }
 
-.icon{
+.icon {
 	font-size: 45px;
 	text-align: center;
 	line-height: 5%;
+}
+
+.fa-circle {
+	color: #001514;
+}
+
+.close{
+	color: #87ACA3 !important;
+	text-shadow: none !important;
+	opacity: 100% !important;
+}
+
+.modal-content{
+	background-color: #001514 !important;
+}
+
+.modal-header{
+	border-bottom: none !important;
+}
+
+.modal-footer{
+	border-top: none !important;
+}
+
+.modal_text{
+	color: #87ACA3;
+	font-size: 30px;
+	font-weight: 30;
+}
+
+.crown{
+	color: #FFDB1A;
+	filter: drop-shadow(0px 0px 0px #222);
+	transform: rotate(-40deg);
 }
